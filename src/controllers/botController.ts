@@ -27,7 +27,6 @@ import { validateTradingPrerequisites } from "../services/startup/validateTradin
 import { copyTradeDetail } from "../utils/copyTradeLog";
 import { printSportResultColoredTable } from "../utils/sportResultTable";
 
-import chalkLogger from "chalk-ts-logger";
 import type { GammaMarket } from "../types/market";
 import type { CopyTradeIntent } from "../types/trade";
 
@@ -61,7 +60,6 @@ export class BotController {
 
     await validateTradingPrerequisites();
     await logStartupWalletBalances(this.wallets.wallets);
-    chalkLogger.logText("bot started");
     scheduleDaily(0, 5, () => resetDailyMetrics());
     startSportsWs(appSecrets.wsSportsUrl || undefined, (p) => {
       if (appSecrets.sportsWsColoredTable) {

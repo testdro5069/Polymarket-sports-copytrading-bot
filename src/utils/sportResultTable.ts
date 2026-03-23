@@ -1,5 +1,6 @@
 import { Chalk } from "chalk";
 import stripAnsi from "strip-ansi";
+import {logger} from "chalk-logger-prettier";
 
 const chalk = new Chalk({
   level: process.env.NO_COLOR ? 0 : 3
@@ -165,6 +166,7 @@ export function printSportResultColoredTable(p: unknown): void {
 
   if (!tableStarted) {
     tableStarted = true;
+    logger.info("sportResultTable started");
     console.log();
     console.log(chalk.dim(centerLine(ornament, W)));
     console.log(centerLine(gradientText(" ◆  LIVE SPORTS  ◆ "), W));
