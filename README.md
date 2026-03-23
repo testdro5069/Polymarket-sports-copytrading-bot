@@ -12,6 +12,12 @@ That’s the itch this bot scratches: *what if every time one of those wallets f
 
 This repo is a **sports-first** copy engine. With `SPORTS_ONLY=true` (the default path most people want), it uses Gamma tagging so **non-sports markets never hit your executor**. You still pick **who** to follow (`TARGET_WALLET`). You still eat the variance. But you stop being the only person in the room who’s late to the same public print.
 
+### Live sports feed (terminal)
+
+Optional Polymarket sports WebSocket output with colored tables (`SPORTS_WS_COLORED_TABLE=true` by default). This is **telemetry only**—it does not drive copy trades; leader detection still uses REST or the CLOB user stream per `LEADER_FEED`.
+
+![Live sports terminal — example tennis Challenger matches](docs/images/sports-terminal-preview.png)
+
 ---
 
 ## Sounds interesting?
